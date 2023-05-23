@@ -560,9 +560,9 @@ function Characters() {
     ]
 
     return (
-        <div>
+        <div style={{display:"flex", flexWrap:"Wrap", justifyContent:'center'}}>
             {
-                charactersArray.map((value,index)=><Character key={value.id} item={value}/>)
+                charactersArray.map((value)=><Character key={value.id} item={value}/>)
             }
         </div>
     );

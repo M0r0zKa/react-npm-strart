@@ -4,7 +4,7 @@ function Character({item}) {
     //id,name,status,species,gender,image
 
     return (
-        <div>
+        <div style={{border: "1px solid 2px" , margin:"2px"}}>
             <h3>{item.name}</h3>
             <p> ID - {item.id}</p>
             <img src={item.image} alt={item.name}/>
