@@ -1,3 +1,5 @@
+import {Characters} from "./Components/Characters/Characters";
+
 function App() {
     return (
         <div>
