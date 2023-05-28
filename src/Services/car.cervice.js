@@ -10,4 +10,5 @@ const carService  = {
     deleteByID:(id)=>axiosService.delete(`${urls.cars}/${id}`)
 }
 
-export {carService}
+
+export {carService,}
